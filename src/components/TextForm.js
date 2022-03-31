@@ -29,13 +29,10 @@ export default function TextForm(props) {
 
     }
     const handleOnChange = (event) => {
-        // console.log("On change")
         setText(event.target.value);
 
     }
     const [text, setText] = useState('');
-    // text = "nskjbfjksdf"; //this is the wrong way to set text
-    // setText(new text); //this is the correct way to set textc
 
   return (
       <>
